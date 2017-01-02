@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="favicon.png">
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Gestion de dinero</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+        <link rel="stylesheet" href="css/gestion_dinero.css" type="text/css" />
+    </head>
+    <body>
+        <div class="menu-principal light-primary-color">
+            <div class="menu-espacio-usuario default-primary-color">
+                <div id="fotoUsuario"></div>
+                <div id="nombreUsuario" class="text-primary-color">Nelson Serrano</div>
+                <div id="correoUsuario" class="text-primary-color">njserranor@gmail.com</div>
+            </div>
+            <div class="menu-agregar-elementos">
+                <div class="menu-elemento">
+                    <div class="menu-icono-elemento"><span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span></div>
+                    <div class="menu-texto-elemento primary-text-color">Añadir cuenta</div>
+                </div>
+            </div>
+            <div id="divisor-0" class="menu-divisor divider-color"></div>
+            <div class="menu-reportes-elementos">
+                <div class="menu-elemento">
+                    <div class="menu-icono-elemento primary-text-color"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></div>
+                    <div class="menu-texto-elemento primary-text-color">Panel de control</div>
+                </div>
+                <div class="menu-elemento">
+                    <div class="menu-icono-elemento primary-text-color"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></div>
+                    <div class="menu-texto-elemento primary-text-color">Registros</div>
+                </div>
+                <div class="menu-elemento">
+                    <div class="menu-icono-elemento primary-text-color"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span></div>
+                    <div class="menu-texto-elemento primary-text-color">Gráficos</div>
+                </div>
+                <div class="menu-elemento">
+                    <div class="menu-icono-elemento primary-text-color"><span class="glyphicon glyphicon-file" aria-hidden="true"></span></div>
+                    <div class="menu-texto-elemento primary-text-color">Informes</div>
+                </div>
+            </div>
+            <div id="divisor-1" class="menu-divisor divider-color"></div>
+            <div class="menu-otros-elementos">
+                <div class="menu-elemento">
+                    <div class="menu-icono-elemento primary-text-color"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></div>
+                    <div class="menu-texto-elemento primary-text-color">Configuración</div>
+                </div>
+            </div>
+        </div>
+        <div id="contenedor">
+            <div id="splash_screen">
+                <div id="logo_splash"></div>
+            </div>
+        </div>
+        <div class="cargando"><div id="mensaje"></div></div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/gestion_dinero.js"></script>
+    </body>
+</html>
